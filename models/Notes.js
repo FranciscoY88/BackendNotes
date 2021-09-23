@@ -7,6 +7,6 @@ const noteSchema = new Schema({
     description: {
         type:String
     }
-});
+},{timestamps: true});
 
 module.exports = model("note", noteSchema, "note");
