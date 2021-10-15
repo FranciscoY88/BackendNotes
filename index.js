@@ -4,6 +4,7 @@ const Note = require("./models/Notes");
 const mongoose = require('mongoose');
 const express = require('express');
 const cors = require('cors');
+const morgan = require('morgan');
 const Notes = require("./models/Notes");
 const app = express();
 app.use(cors());
